@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:#94A684;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: #AEC3AE;
+}
+nav h1{
+    font-family: 'Fjalla One', sans-serif;
+    padding: 1rem;
+    color: #213555;
+    
+}
+nav span{
+    color: red;
+    font-weight: bolder;
+}
+
+.coming-soon{
+   
+    display: flex;
+    align-items: center;
+   gap: 4rem;
+    width: 80%;
+    margin: auto;
+}
+.coming-soon span{
+    color: rgb(212, 42, 42);
+}
+.coming-soon img{
+    width: 50%;
+}
+
+.text h1{
+    text-transform: uppercase;
+    font-size: 8vw;
+    font-weight: bold;
+    font-family: 'Fjalla One', sans-serif;
+    color: #213555;
+}
+.text h3{
+    text-transform: uppercase;
+    font-size: 2vw;
+    font-weight: bold;
+    
+    color: rgb(196, 91, 91);
+   
+}
+#countdown{
+    color: #213555;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.inform{
+    width: 40%;
+    margin:2rem auto;
+    text-align: center;
+    padding: 2rem;
+}
+.inform h3{
+    font-size: 2vw;
+    text-transform: uppercase;
+    color: #063b91;
+}
+.inform input{
+    padding: 1.5rem;
+    width: 100%;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+}
+.inform button{
+    margin: 2rem auto;
+    border: none;
+    padding: 1rem;
+    width: 200px;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    background: #063b91;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.inform button:hover{
+    background-color: #0d56cac4;
+}
+.countdown{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
